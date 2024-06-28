@@ -1,4 +1,4 @@
-package ao.com.anderstore.anderstoremarketplace;
+package ao.com.anderstore.anderstoremarketplace.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +11,7 @@ public class PrimeiraController {
     
     @GetMapping("/primeiroMetodo")
     public String primeiroMetodo() {
-        return "Meu peimeiro metodo api rest";
+        return " SPRING BOOT ";
     }
     
 }
